@@ -1,0 +1,83 @@
+header a {
+display: inline-block;
+vertical-align: middle;
+font-family: "Arial", sans-serif;
+font-size: 12px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+nav img {
+max-height: 20px;
+width: auto;
+}
+
+a {
+  padding: 10px;
+  color: #8a8a8a;
+}
+
+div img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+div button {
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  margin-top:10px;
+  margin-right: 4px;
+}
+
+.button {
+  padding: 15px;
+}
+
+.form {
+  padding: 20px;
+  text-align: center;
+}
+
+.language {
+  font-family: "Arial", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer_t {
+  position: absolute;
+  bottom: 50px;
+  left: 0px;
+  right: 0px;
+  background-color: #F2F2F2;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.footer_b {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #F2F2F2;
+}
+#search_bar {
+  display: inline-block;
+  text-align: center;
+}
+
+#avatar {
+  max-height:30px;
+  width: auto;
+}
+
+#footer {
+  position: absolute;
+  left: 25px;
+}
