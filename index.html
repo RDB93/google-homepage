@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Google</title>
   <link href="/home/ryan/the_odin_project/google_homepage/reset.css" type="text/CSS" rel="reset"/>
   <link href="/home/ryan/the_odin_project/google_homepage/stylesheet.css" type="text/CSS" rel="stylesheet"/>
   <link href="/home/ryan/the_odin_project/google_homepage/site_images/new-google-favicon-512.png" rel="icon"/>
 </head>
+
 <header class="header">
-  <nav>
+  <nav class="main_text">
     <a href="https://mail.google.com/">Gmail</a><span>
     <a href="https://mail.google.com/">Images</a><span>
     <a href="#"><img src="/home/ryan/the_odin_project/google_homepage/site_images/apps-top.png" alt="Notification"/></a><span>
@@ -17,12 +19,12 @@
 </header>
 
 <body>
-  <div>
+  <div  id="logo">
     <img src="/home/ryan/the_odin_project/google_homepage/site_images/272px-Google_2015_logo.png" alt="Google Logo"/>
   </div>
   <div class="form">
     <form action="#" method= "GET" name="search_engine" id="search_bar">
-      <input type="text" name="search_box" style="width: 400px;"><br>
+      <input type="text" name="search_box" id="text_search"><br>
       <div class="button">
         <button>Google Search</button><span>
         <button>I'm Feeling Lucky</button>
@@ -30,7 +32,7 @@
     </form>
   </div>
   <div class="language">
-      <a style="color:black;">Google offered in:</a>
+      <a style="color:black; text-decoration: none;">Google offered in:</a>
       <a href="#">Afrikaans</a>
       <a href="#">Sesotho</a>
       <a href="#">isiZulu</a>
@@ -40,25 +42,23 @@
   </div>
 </body>
 
-<footer>
-  <div>
-    <div class="footer_t">
-      <p style="margin-left: 30px;">South Africa</p>
-    </div>
-  </div>
-
-  <div class="footer_b" >
-    <div class="footer_l">
-    <a href="#">Advertising</a>
-    <a href="#">Business</a>
-    <a href="#">About</a>
+<footer class="footer">
+  <div class="border">
+      <p style="margin-left: 30px">South Africa</p>
     </div>
 
-    <div class="footer_r">
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Settings</a>
-      <a href="#">Use Google.com</a>
-    </div>
-  </div>
+      <p id="footer_l">
+        <a href="#">Advertising</a><span>
+        <a href="#">Business</a><span>
+        <a href="#">About</a><span>
+      </p>
+      <p id="footer_r">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+        <a href="#">Use Google.com</a>
+      </p>
+
+</footer>
+
 </html>
