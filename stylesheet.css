@@ -35,8 +35,27 @@ div button {
   margin-right: 4px;
 }
 
-.button {
+.button_section {
   padding: 15px;
+}
+
+.button {
+  background-color: #F4F4F4;
+  border-color: #F4F4F4;
+  padding: 10px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  color: #8a8a8a;
+  font-size: 12px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.button:hover {
+  color: black;
+  border-style: outset;
+  border-color: #E3E3E3;
+  border-width: thin;
 }
 
 .form {
@@ -90,7 +109,9 @@ div button {
 #text_search {
   width: 450px;
   height:30px;
-  box-shadow: 0 0 5px #F2F2F2;
+  border-style: outset;
+  border-color: #F2F2F2;
+  border-width: 1.2px;
 }
 
 #avatar {
@@ -104,6 +125,7 @@ div button {
   font-size: 12px;
   padding-top: 2.5px;
   padding-bottom: 2.5px;
+  color: #8a8a8a;
 }
 
 #footer_l a:hover {
@@ -116,12 +138,9 @@ div button {
   padding-right: 30px;
   padding-top: 2.5px;
   padding-bottom: 2.5px;
+  color: #8a8a8a;
 }
 
 #footer_r a:hover {
   text-decoration: underline;
-}
-
-#logo {
-
 }
